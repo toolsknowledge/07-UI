@@ -1,0 +1,68 @@
+body{
+    
+}
+
+.menu{
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+    background: linear-gradient(45deg,black,red);
+    padding: 10px;
+    color: goldenrod;
+    border: 1px solid yellow;
+    border-radius: 20px;
+}
+
+a:hover{
+    background: linear-gradient(45deg,black,white);   
+}
+
+h1{
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 0px 30px;
+}
+
+h3{
+    color: wheat;
+}
+
+.cakes{
+
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+img:hover{
+    width: 210px;
+    height: 210px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+    color: gray;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
