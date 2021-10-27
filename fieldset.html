@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Field Set Tag</title>
+        <title>Field Set</title>
+        <style>
+            fieldset{
+                width: 35%;
+                border: 1px solid red;
+                border-radius: 10px;
+            }
+            legend{
+                background-color: black;
+                color: white;
+                padding: 5px;
+                border: 1px dotted red;
+                border-radius: 10px;
+                
+            }
+            label{
+                margin-right: 10px;
+                color: gray;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            input{
+                border: 1px solid green;
+                height: 20px;
+                border-radius: 10px;
+                width: 250px;
+            }
+            div{
+                margin-bottom: 20px;
+            }
+            button{
+                width: 100px;
+                height: 50px;
+                margin-right: 50px;
+                background:linear-gradient(45deg,salmon,pink);
+                color: white;
+                border: 1px solid red;
+                border-radius: 0px 30px;
+            }
+            button:hover{
+                background: linear-gradient(45deg,red,black);
+            }
+        </style>
     </head>
     <body>
-       <fieldset>
-           <legend>Login</legend>
+        <fieldset>
+            <legend>Login</legend>
 
-           <label>Email</label>
-           <input type="email">
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="enter email" style="margin-left: 27px;">
+            </div>
 
-           <br><br>
-           <label>Password</label>
-           <input type="password">
+            <div>
+                <label>Password</label>
+                <input type="password" placeholder="enter password">
+            </div>
 
-           <br><br>
-           <button>Login</button>
-       </fieldset>
+            <div>
+                <button>Login</button>
+                <button>Reset</button>
+            </div>
+
+        </fieldset>
     </body>
 </html>
