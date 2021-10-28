@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    background-color: salmon;
+    width: 200px;
+    height: 100vh;
+    text-align: center;
+    float: right;
+}
+
+.user_image{
+    font-size: 180px;
+    display: block;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: red;
+    padding: 20px;
+    margin: 10px;
+    background-color: yellow;
+    border: 1px solid red;
+    border-radius: 10px;
+}
