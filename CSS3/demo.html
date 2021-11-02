@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Basics</title>
+        <style>
+           .class_one{
+               color: red;
+           } 
+           #my_id{
+               color: green;
+           }
+           h1{
+               color: blue;
+           }
+
+           /* div>span{
+               color: red;
+           } */
+
+           /* div>span:first-child{
+               color: red;
+           }
+
+           div>span:nth-child(2){
+               color: green;
+           }
+
+           div>span:last-child{
+               color: blue;
+           } */
+
+           [class^="c_1"]{
+               color: red;
+           }
+
+           [class^="c_1"]:hover{
+                color: green;
+                cursor: pointer;
+           }
+
+           ul > li > a{
+               color: red;
+               color: blanchedalmond;
+           }
+
+           ul > li > a:hover{
+               color: palevioletred;
+               cursor: pointer;
+           }
+
+           .c_one{
+               color: red;
+           }
+
+           .c_two{
+               font-size: 20px;
+           }
+
+           #id1{
+               color: plum;
+           }
+
+           /* #id2{
+               font-family: Arial;
+           } */
+
+           div p:first-child{
+               color: red;
+           }
+
+           div p:nth-child(2){
+               color: green;
+           }
+
+           div p:last-child{
+               color: indigo;
+           }
+          
+           div h6{
+               color: red;
+           }
+
+        </style>
+    </head>
+    <body>
+       
+        <div>
+            <p>Paragraph1</p>
+            <p>Paragraph2</p>
+            <p>Paragraph3</p>
+
+            <h6>Heading1</h6>
+            <h6>Heading2</h6>
+            <h6>Heading3</h6>
+        </div>
+       
+       
+       
+        <h1 class="class_one">Hello_1</h1>
+       <h1 id="my_id">Hello_2</h1>
+       <h1>Hello_3</h1>
+
+        <div>
+            <span>Test_1</span>
+            <span>Test_2</span>
+            <span>Test_3</span>
+        </div>        
+
+        <div>
+            <span class="c_1">Hello_1</span>
+            <span class="c_1">Hello_2</span>
+            <span class="c_1">Hello_3</span>
+        </div>
+
+
+        <ul>
+            <li><a href="#">Hello_1</a></li>
+            <li><a href="#">Hello_2</a></li>
+            <li><a href="#">Hello_3</a></li>
+            <li><a href="#">Hello_4</a></li>
+            <li><a href="#">Hello_5</a></li>
+        </ul>
+
+        <h1 class="c_one c_two">Hello_1</h1>
+
+        <h1 id="id1 id2">Hello_2</h1>
+
+
+
+    </body>
+</html>

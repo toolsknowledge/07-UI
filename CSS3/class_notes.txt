@@ -1,0 +1,140 @@
+Syllabus
+========
+1) Flex Box
+
+2) Grid Box
+
+3) Positions
+
+    => relative
+
+    => absolute
+
+    => sticky
+
+    => fixed
+
+    => static
+
+4) Media Queries  / Responsive Web Design / RWD
+
+5) Dimensions
+
+        => px
+
+        => rem
+
+        => em
+
+        => percentages
+
+        => viewports
+
+6) selectors
+
+7) Animations
+
+8) Psudo Classes
+
+9) SASS
+
+10) SEO in CSS
+
+
+Day - 1
+*******
+     Cascading Style Sheet
+
+     used to apply the styles to the webpages.
+
+            Ex.
+                    color
+
+                    background-color
+
+                    padding
+
+                    margins
+
+                    ---
+                    ---
+                    ---
+      we can save the files with ".css" extension
+
+      current version of css is "CSS3.x"
+
+Syntax-1
+********
+
+demo.css
+++++++++
+
+-----
+-----
+-----
+
+
+demo.html
++++++++++
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="demo.css">
+    </head>
+</html>
+
+
+Syntax-2
++++++++++
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                color:"red"
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>Hello</p>
+    </body>
+</html>
+
+
+Syntax-3
+++++++++
+
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+        <h1 style="color:red">Hello</h1>
+    </body>
+</html> 
+
+
+Day-2
+*****
+
+Examples on CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
