@@ -123,6 +123,12 @@ Day-2
 Examples on CSS
 
 
+Day-3
+*****
+
+box-sizing
+
+
 
 
 
