@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Relative Position</title>
+        <style>
+            .common{
+                color: white;
+                padding: 10px;
+                width: 10%;
+            }
+            .first{
+                background-color: red;
+               
+            }
+            .second{
+                background-color: green;
+                position: absolute;
+                top:10px;
+                left: 40px;
+            }
+            .third{
+                background-color: greenyellow;
+                position: absolute;
+                top: 10px;
+                left: 50px;
+                
+            }
+           
+            .c2{
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="c1">
+            <div class="common first">Hello_1</div>
+        </div>
+
+        <div class="c2">
+            <div class="common second">Hello_2</div>
+            <div class="common third">Hello_3</div>
+        </div>
+    </body>
+</html>
