@@ -1,0 +1,38 @@
+<!--
+    1) width     ---- min-width & max-width
+
+    2) height   ---- min-height & max-height
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Dimensions</title>
+        <style>
+            .parent{
+                background-color: lightskyblue;
+                max-width: 800px;
+                padding: 1rem;
+            }
+            p{
+                margin: 1rem auto;
+                background-color: white;
+                padding: 1rem;
+                text-align: justify;
+            }
+            p:nth-child(1){
+                width: 1000px;
+            }
+            p:nth-child(2){
+                max-width: 1000px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat in ratione praesentium quia similique a rem quidem consequuntur exercitationem dolores, natus incidunt eius aperiam inventore molestias asperiores, et fugit. Aspernatur ipsa nisi ea officiis quae reprehenderit ut, et nam itaque nostrum. At facere quam magni iusto quisquam neque sed nam.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat in ratione praesentium quia similique a rem quidem consequuntur exercitationem dolores, natus incidunt eius aperiam inventore molestias asperiores, et fugit. Aspernatur ipsa nisi ea officiis quae reprehenderit ut, et nam itaque nostrum. At facere quam magni iusto quisquam neque sed nam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit expedita maxime eveniet necessitatibus aliquam, laboriosam facere explicabo error ratione odit quibusdam optio sed odio animi accusamus iure cumque temporibus dolorem in nostrum enim earum. Fuga itaque, suscipit perspiciatis facere deserunt culpa accusantium iure iusto cum et fugiat similique porro cumque, molestias libero veniam ducimus. Ducimus adipisci debitis enim cum perspiciatis architecto eligendi nulla facilis libero quisquam velit modi corrupti iure provident, accusantium labore blanditiis rerum deserunt! Dicta necessitatibus quis sequi eveniet, ducimus aut ut. Aperiam est aliquam natus at vel impedit necessitatibus provident sapiente dolores maiores. Facere asperiores fugiat nostrum.</p>
+        </div>
+    </body>
+</html>
