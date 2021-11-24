@@ -1,0 +1,108 @@
+<!--
+    psudo elements
+    **************
+    1) ::before
+    2) ::after
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Psudo Elements</title>
+        <style>
+            .required::before{
+                width: 10px;
+                height: 10px;
+                background-color: red;
+                display: block;
+                content: "";
+            } 
+            .required::after{
+                width: 10px;
+                height: 10px;
+                background-color: green;
+                display: block;
+                content: "";
+            } 
+            
+            input::before{
+                content: "Hello";
+            }
+
+            input::after{
+                content: "bye";
+            }
+
+
+           [data-list]:hover::before{
+               content: attr(data-list);
+               position: absolute;
+               top: 120px;
+               left: 15px;
+               background-color: gray;
+               padding: 10px;
+               border: 1px solid red;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+       <label class="required">Name</label>
+       <input type="text" required>
+
+       <br><br>
+       <button data-list="Toast">Click Me</button>
+    </body>
+</html>
+
+
+
+<!--
+<br><br>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            label{
+                display: block;
+            }
+            label::after{
+                content: "*";
+            }
+            label::before{
+                content: "#";
+            }
+        </style>
+    </head>
+    <body>
+        <label>First Name</label>
+        <label>Last Name</label>
+        <label>Email</label>
+        <label>Phone Number</label>
+    </body>
+</html>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
