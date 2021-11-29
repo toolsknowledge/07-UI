@@ -1,0 +1,23 @@
+Media Queries
++++++++++++++
+    execution of webpages in multiple devices called as Media Queries
+
+
+SASS
+++++
+    SASS also called as preprocessor of CSS
+
+    Because of SASS, code reusability is high
+
+    browsers can't understand SASS.
+
+    so, we need to convert SASS to Equalent CSS.
+
+    SASS Compiler used to convert SASS to Equalent CSS.
+
+    we will save the SASS Files with ".scss" extension.
+
+
+
+
+    
