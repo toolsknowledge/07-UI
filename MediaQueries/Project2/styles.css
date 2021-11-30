@@ -1,0 +1,66 @@
+* {
+  margin: 0px 1px;
+  padding: 0;
+}
+
+* body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+}
+
+.header {
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  font-size: 2.5vw;
+}
+
+.main {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__image {
+  width: 50%;
+  background-image: url("./images/p1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main__text {
+  width: 50%;
+}
+
+.main__text_1 {
+  font-size: 80px;
+}
+
+.main__text_2, .main__text_3, .main__text_4 {
+  font-size: 60px;
+}
+/*# sourceMappingURL=styles.css.map */

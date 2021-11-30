@@ -1,0 +1,56 @@
+*{
+    margin: 0px 1px;
+    padding: 0;
+    body{
+        box-sizing: border-box;
+    }
+}
+.container{
+    height: 100vh;
+}
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+        font-size: 4vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &__menu{
+        display: flex;
+        gap: 15px;
+        font-size: 2.5vw;
+    }
+}
+
+.main{
+    height: 80%;
+    display: flex;
+    &__image{
+        width: 50%;
+        background-image: url("./images/p1.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &__text{
+        width: 50%;
+        &_1{
+            font-size: 80px;
+        }
+        &_2,&_3,&_4{
+            font-size: 60px;
+        }
+        &_3{
+
+        }
+        &_4{
+
+        }
+    }
+}
+
+
+
