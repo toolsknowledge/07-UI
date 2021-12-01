@@ -1,0 +1,133 @@
+* {
+  margin: 0px 1px;
+  padding: 0;
+}
+
+* body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+}
+
+.header {
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  font-size: 4vw;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5vw;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80%;
+}
+
+.main__image {
+  width: 50%;
+  background-image: url("./images/p1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main__text {
+  width: 50%;
+}
+
+.main__text-1 {
+  font-size: 5vw;
+}
+
+.main__text-2, .main__text-3, .main__text-4 {
+  font-size: 3vw;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.footer [class^="footer__"] {
+  font-size: 2vw;
+  color: gray;
+}
+
+@media (max-width: 650px) {
+  .header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__logo {
+    font-size: 3vw;
+    background: linear-gradient(45deg, red, black);
+    color: white;
+    padding: 10px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main__image {
+    width: 180px;
+    height: 210px;
+    border: 2px solid gray;
+    border-radius: 100%;
+  }
+  .main__text {
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+  .main__text-1 {
+    font-size: 2vw;
+  }
+  .main__text-2, .main__text-3, .main__text-4 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
