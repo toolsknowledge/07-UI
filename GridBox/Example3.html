@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Box</title>
+        <style>
+            .parent{
+                display: grid;
+                grid-template-areas: 'a a a a a a a a a a a a'
+                                     'L L L b b b b b b R R R'
+                                     'c c c c c c c c c c c c';
+                height: 100vh;
+            }
+            header{
+                grid-area: a;
+                height: 10vh;
+                background-color: #ddd;
+                color: #fff;
+            }
+            main{
+                height: 80vh;
+                grid-area: b;
+                background-color: green;
+            }
+            footer{
+                height: 10vh;
+                grid-area: c;
+                background-color: hotpink;
+            }
+            .left{
+                height: 80vh;
+                grid-area: L;
+                background-color: indianred;
+            }
+            .right{
+                height: 80vh;
+                grid-area: R;
+                background-color: indianred;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="parent">
+            <header>Header</header>
+
+            <main>Body</main>
+
+            <footer>Footer</footer>
+
+            <aside class="left"></aside>
+
+            <aside class="right"></aside>
+
+        </div>
+    </body>
+</html>

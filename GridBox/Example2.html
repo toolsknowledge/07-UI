@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GridBox</title>
+        <style>
+            .parent>div{
+                width: 200px;
+                height: 200px;
+                border: 1px solid gray;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+            }
+            .parent{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-row-gap: 1em;
+                justify-items: center;
+            }
+            img{
+                width: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="parent">
+            <div>
+                <img src="images/p1.jpg">
+            </div>
+            <div>
+                <img src="images/p2.jpg">
+            </div>
+            <div>
+                <img src="images/p3.jpg">
+            </div>
+            <div>
+                <img src="images/p4.jpg">
+            </div>
+            <div>
+                <img src="images/p5.jpg">
+            </div>
+            <div>
+                <img src="images/p6.jpg">
+            </div>
+            <div>
+                <img src="images/p1.jpg">
+            </div>
+            <div>
+                <img src="images/p2.jpg">
+            </div>
+            <div>
+                <img src="images/p3.jpg">
+            </div>
+        </div>
+    </body>
+</html>
