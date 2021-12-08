@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Example</title>
+        <style>
+            .parent{
+               display: grid;
+               grid-template-areas: 'R1 R1 R1 R1 R1 R1 R6 R6 R6 R6 R6 R6'
+                                    'R2 R2 R2 R2 R2 R2 R2 R2 R2 R2 R2 R2'
+                                    'R3 R3 R3 R3 R3 R3 R3 R3 R3 R3 R3 R3'
+                                    'R7 R7 R7 R7 R7 R7 R4 R4 R4 R4 R4 R4'
+                                    'R5 R5 R5 R5 R5 R5 R5 R5 R5 R5 R5 R5'; 
+               height: 100vh;
+            }
+            .first{
+                background-color: #FF0000;
+                height: 20vh;
+                grid-area: R1;
+            }
+            .second{
+                background-color: #00FF00;
+                height: 20vh;
+                grid-area: R2;
+            }
+
+            .third{
+                background-color: #0000FF;
+                height: 20vh;
+                grid-area: R3;
+            }
+
+            .fourth{
+                background-color: hotpink;
+                height: 20vh;
+                grid-area: R4;
+            }
+
+            .fifth{
+                background-color: yellow;
+                height: 20vh;
+                grid-area: R5;
+            }
+
+            .extra1{
+                background-color: goldenrod;
+                height: 20vh;
+                grid-area: R6;
+            }
+            
+            .extra2{
+                background-color: goldenrod;
+                height: 20vh;
+                grid-area: R7;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="parent">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+            <div class="fifth"></div>
+
+            <div class="extra1"></div>
+
+            <div class="extra2"></div>
+
+        </div>
+    </body>
+</html>
