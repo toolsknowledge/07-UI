@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+           .parent{
+               display: grid;
+               grid-template-columns: repeat(3,1fr);
+               grid-auto-rows: minmax(100px,auto);
+               grid-gap: 1em;
+            }
+
+           .parent>div:nth-child(odd){
+               background-color: #ddd;
+           }
+       </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum labore temporibus repudiandae eligendi rem aperiam reprehenderit. Quis quasi numquam qui ea doloribus veritatis adipisci eaque nisi reiciendis asperiores. Labore reprehenderit harum perspiciatis architecto, quaerat aspernatur tempore neque minima vitae? Unde dolore nostrum, laudantium praesentium libero voluptatibus modi harum est deleniti suscipit beatae. Non, maxime consequuntur provident sunt consectetur sit error nihil asperiores, commodi temporibus delectus earum voluptate quam optio alias dolore aliquam odit nemo debitis? Praesentium, enim suscipit! Voluptatibus delectus animi ipsum nisi! Eos ex voluptates, cumque praesentium aspernatur repellat eligendi, culpa inventore est veritatis quam quod quos dolor vel?</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+            <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deserunt cumque culpa atque odit fugiat ab. Cumque dolores enim eveniet incidunt voluptate consectetur, distinctio, explicabo in aliquid saepe, illum iure maiores facilis porro praesentium! Suscipit aperiam deserunt, magnam fugit facere quae pariatur libero labore ut harum reiciendis optio saepe soluta.</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+        </div>
+    </body>
+</html>

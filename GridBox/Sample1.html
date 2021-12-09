@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .parent{
+                background-color: #eee;
+                padding: 10px;
+                display: grid;
+                /* grid-template-columns: 30% 70%; 
+                grid-template-columns: 1fr 2fr;*/
+                grid-template-columns: repeat(2,1fr 2fr);
+                grid-gap: 1em;
+            
+            }
+
+            .parent>:nth-child(odd){
+                background-color: #ddd;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis pariatur distinctio porro voluptas. Asperiores ab veniam dolorum? Repellat amet sint placeat eligendi repudiandae. Nesciunt saepe, magnam dolore neque odit, labore sint dolores aperiam numquam, id vero facilis vitae laudantium autem accusamus totam! Possimus quibusdam at non est exercitationem libero et.
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dolorem. Suscipit consequuntur, animi repellat modi odio minima labore voluptatum nihil.
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam et enim ut possimus veritatis, voluptas hic placeat voluptatibus molestiae ullam repellendus dolorem quae officiis vitae neque non asperiores eveniet sint minima dolores quasi accusamus amet modi. Reprehenderit ullam asperiores nobis obcaecati corporis, ipsam, officia debitis ad magni aliquam, dolores voluptatem!
+            </div>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima natus impedit vero obcaecati, exercitationem recusandae aperiam assumenda? Temporibus, labore possimus.
+            </div>
+        </div>
+    </body>
+</html>
